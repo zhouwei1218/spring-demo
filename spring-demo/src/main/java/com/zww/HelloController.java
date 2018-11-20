@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
 	@RequestMapping("/index")
 	public String index(ModelMap map) {
-		map.addAttribute("hello", "hello~~~~~~~~~~~~~");
+		map.addAttribute("hello", "helloWorld~~~~~~~~~~~~~");
 		return "index";
 	}
 }
