@@ -28,7 +28,7 @@ public class UserController {
 	}
 	/**
 	 * 保存一个
-	 * @param username
+	 * @param username 
 	 * @param password
 	 * @return
 	 */
